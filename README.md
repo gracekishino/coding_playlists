@@ -1,6 +1,6 @@
 # Coding Playlists Website
  
-This is a website to share coding playlists and for people to practice using HTML, CSS, Javascript, Git and GitHub. 
+This is a website to share coding playlists and for people to practice using HTML, CSS, Javascript, Git, and GitHub. 
 
 View the website and checkout the playlists here: https://gracekishino.github.io/coding_playlists/
 
