@@ -6,10 +6,21 @@ html {
     background-color: black;
 }
 
+
+main {
+    padding-bottom: 8rem;
+}
+
 h1 {
     text-align: center;
 }
 
 section h2, section div {
     margin: 20px;
+}
+
+footer {
+    background-color: #282828;
+    text-align: center;
+    padding: 4rem 0;
 }
