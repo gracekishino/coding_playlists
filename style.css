@@ -6,6 +6,13 @@ html {
     background-color: black;
 }
 
+header{
+    position: sticky; 
+    top: 0;  
+    background-color: black;
+    padding-top: 1px;     
+    border-bottom: solid 1px white; 
+}
 
 main {
     padding-bottom: 8rem;
