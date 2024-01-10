@@ -14,6 +14,16 @@ header{
     border-bottom: solid 1px white; 
 }
 
+/* issue #16: add link to contribute */
+#contribution_link {
+    text-align: right;
+}
+
+#contribution_link a {
+    text-decoration: none;
+    color: #fff;
+}
+
 main {
     padding-bottom: 8rem;
 }
