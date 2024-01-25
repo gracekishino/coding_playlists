@@ -36,6 +36,18 @@ section h2, section div {
     margin: 20px;
 }
 
+.youtube-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+@media screen and (min-width: 1080px) {
+    .youtube-wrapper iframe {
+        flex-basis: calc(33.3% - 13.3px);
+    }
+}
+
 footer {
     background-color: #282828;
     text-align: center;
