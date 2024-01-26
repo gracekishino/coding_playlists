@@ -36,6 +36,19 @@ section h2, section div {
     margin: 2rem 0;
 }
 
+#spotify {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.spotify-wrapper {
+    width: 100%;
+    margin: 0;
+    display: grid;
+    gap: 20px;
+}
+
 .youtube-wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -43,8 +56,18 @@ section h2, section div {
 }
 
 @media screen and (min-width: 1080px) {
+    .spotify-wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+
     .youtube-wrapper iframe {
         flex-basis: calc(33.3% - 13.3px);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .spotify-wrapper {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
 
