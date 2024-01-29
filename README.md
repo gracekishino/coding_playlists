@@ -6,7 +6,7 @@ View the website and checkout the playlists here: [https://coding-playlists.netl
 
 ## Installation
 
-Open `index.html` in the project directory to view the website in your browser locally on your computer.
+Open `index.html` in the project directory to view the website in a browser locally on your computer.
 
 ## Contributing
 
