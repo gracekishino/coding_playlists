@@ -12,7 +12,7 @@ Open `index.html` in the project directory to view the website locally in a brow
 
 Ask to work on an [issue](https://github.com/gracekishino/coding_playlists/issues), [create an issue](https://github.com/gracekishino/coding_playlists/issues/new) or submit a [pull request](https://github.com/gracekishino/coding_playlists/pulls) if you'd like to contribute! 💞 
 
-If you have any questions or ideas, start a [discussion](https://github.com/gracekishino/coding_playlists/discussions).
+If you have any questions, ideas, or would like to help maintain the project, start a [discussion](https://github.com/gracekishino/coding_playlists/discussions).
 
 ## Acknowledgments
 
