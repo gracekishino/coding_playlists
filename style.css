@@ -9,7 +9,8 @@ html {
 header {
     position: sticky; 
     top: 0;  
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.7);
+    filter: blur(15px);
     padding-top: 1px;     
     border-bottom: solid 1px white; 
 }
