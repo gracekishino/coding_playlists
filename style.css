@@ -1,27 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;700&display=swap');
 
+:root {
+  --background: #171717; /* Dark background color */
+  --header-background: rgb(40, 40, 40); /* Slightly lighter background for the header */
+  --accent-color: #ff5e5e; /* links */
+  --text-color: #e0e0e0; /* Light gray text color */
+  --main-heading-color: #ffcc00; /* Coding Playlist */
+  --section-color: #4e79a7; /* Deep blue for section headings */
+  --heading-color: #e84a5f; /* purp for headings */
+}
+
 html {
     font-family: 'Work Sans', sans-serif;
-    color: #f8f8ec;
-    background-color: black;
+    color: var(--text-color);
+    background-color: var(--background);
 }
 
 header {
-    position: sticky; 
-    top: 0;  
-    background-color: rgba(0, 0, 0, 0.7);
-    filter: blur(15px);
-    padding-top: 1px;     
-    border-bottom: solid 1px white; 
-}
-
-#contribution_link {
-    text-align: right;
+    position: sticky;
+    top: 0;
+    background-color: rgba(40, 40, 40, 0.7);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    z-index: 1000;
+    padding-top: 1px;
+    border-bottom: solid 1px var(--text-color);
 }
 
 #contribution_link a {
     text-decoration: none;
-    color: #fff;
+    color: var(--text-color);
+    transition: color 0.4s;
+}
+
+#contribution_link a:hover {
+    color: var(--accent-color);
+}
+
+#contribution_link {
+    text-align: right;
 }
 
 main {
@@ -29,8 +46,18 @@ main {
     padding-bottom: 8rem;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    color: var(--heading-color);
+}
+
+section h2, section div {
+    margin: 2rem 0;
+    color: var(--heading-color);
+}
+
 h1 {
     text-align: center;
+    color: var(--main-heading-color);
 }
 
 section h2, section div {
@@ -73,7 +100,8 @@ section h2, section div {
 }
 
 footer {
-    background-color: #282828;
+    background-color: var(--header-background);
     text-align: center;
     padding: 4rem 0;
+    color: var(--text-color);
 }
