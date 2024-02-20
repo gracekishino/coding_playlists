@@ -40,7 +40,6 @@ header button {
     backdrop-filter: blur(0px);
     padding-top: 1%;
     padding-bottom: 1%;
-    /* padding-left: %; */
     margin-left: 6%;
     border-radius: 5px;
     transition: all 0.3s ease;
@@ -49,13 +48,12 @@ header button {
 header button:hover, header button:focus{
     opacity: 1;
     background-color:#e54b4b;
-    /* border-color: black; */
     color: black;
     border-radius: 15px;
     box-shadow: 0px 0px 10px var(--accent-color);
 }
 
-#contribution_link a {
+#contribution_link {
     text-decoration: none;
     color: var(--text-color);
     transition: color 0.4s;
@@ -134,5 +132,4 @@ footer {
     padding: 4rem 0;
     color: var(--text-color);
     width: 99%;
-    /* position: absolute; */
 }
