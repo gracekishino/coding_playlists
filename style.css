@@ -66,8 +66,8 @@ h2, h3, h4, h5, h6 {
     color: var(--heading-color);
 }
 
-section h2, section div {
-    padding: 1rem 0;
+introText, section h2 {
+    padding: 1rem 0.2rem;
 }
 
 a {
