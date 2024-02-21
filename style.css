@@ -44,7 +44,7 @@ header button {
     transition: all 0.3s ease;
 }
 
-header button:hover, header button:focus {
+header button:hover {
     opacity: 1;
     background-color:#e54b4b;
     color: black;
@@ -117,7 +117,6 @@ a:hover {
     display: block;
     padding-top: 1rem;
 }
-
 
 footer {
     background-color: var(--lighter-background);
