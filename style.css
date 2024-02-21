@@ -66,9 +66,9 @@ h2, h3, h4, h5, h6 {
     color: var(--heading-color);
 }
 
-#introText, section h2 {
+#introText {
     display: block;
-    padding: 1rem 0.2rem;
+    padding: 2rem 0.2rem 1rem;
 }
 
 a {
