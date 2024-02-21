@@ -20,7 +20,7 @@ header {
     top: 0;
     background-color: var(--lighter-background);
     backdrop-filter: blur(5px);
-    padding: 2rem 1rem;
+    padding: 2rem 0.2rem;
     z-index: 1000;
     padding-top: 1px;
 }
@@ -116,7 +116,7 @@ section h2, section div {
 footer {
     background-color: var(--lighter-background);
     text-align: center;
-    padding: 2rem 1rem;
+    padding: 2rem 0.2rem;
     color: var(--text-color);
     width: 99%;
 }
