@@ -70,6 +70,15 @@ section h2, section div {
     margin: 2rem 0;
 }
 
+a {
+    color: var(--main-heading-color);
+    transition: color 0.4s;
+}
+
+a:hover {
+    color: var(--accent-color);
+}
+
 #spotify {
     display: flex;
     flex-direction: column;
@@ -107,13 +116,8 @@ section h2, section div {
 #contribution_link {
     display: block;
     padding-top: 1rem;
-    color: var(--main-heading-color);
-    transition: color 0.4s;
 }
 
-#contribution_link:hover {
-    color: var(--accent-color);
-}
 
 footer {
     background-color: var(--lighter-background);
