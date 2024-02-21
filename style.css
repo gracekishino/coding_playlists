@@ -13,6 +13,7 @@ html {
     font-family: 'Work Sans', sans-serif;
     color: var(--text-color);
     background-color: var(--background);
+    min-width: 320px;
 }
 
 header {
@@ -104,6 +105,7 @@ section h2, section div {
 }
 
 #contribution_link {
+    display: block;
     padding-top: 1rem;
     color: var(--main-heading-color);
     transition: color 0.4s;
