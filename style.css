@@ -6,8 +6,7 @@
   --accent-color: #ff5e5e; /* links */
   --text-color: #e0e0e0; /* Light gray text color */
   --main-heading-color: #ffcc00; /* Coding Playlist */
-  --section-color: #4e79a7; /* Deep blue for section headings */
-  --heading-color: #e84a5f; /* purp for headings */
+  --heading-color: #e84a5f; /* red for headings */
 }
 
 html {
@@ -16,7 +15,7 @@ html {
     background-color: var(--background);
 }
 
-header.shadow {
+header:hover {
     transition: box-shadow 0.1s ease;
     box-shadow: 0px 0px 10px 5px var(--main-heading-color);
 }
@@ -45,7 +44,7 @@ header button {
     transition: all 0.3s ease;
 }
 
-header button:hover, header button:focus{
+header button:hover, header button:focus {
     opacity: 1;
     background-color:#e54b4b;
     color: black;
@@ -54,37 +53,26 @@ header button:hover, header button:focus{
 }
 
 #contribution_link {
-    text-decoration: none;
     color: var(--text-color);
     transition: color 0.4s;
 }
 
-#contribution_link a:hover {
+#contribution_link:hover {
     color: var(--accent-color);
-}
-
-#contribution_link {
-    text-align: right;
 }
 
 main {
     margin: 0 2rem;
     padding-bottom: 8rem;
-    /* flex: 1 0 */
-}
-
-h1, h2, h3, h4, h5, h6 {
-    color: var(--heading-color);
-}
-
-section h2, section div {
-    margin: 2rem 0;
-    color: var(--heading-color);
 }
 
 h1 {
     text-align: center;
     color: var(--main-heading-color);
+}
+
+h2, h3, h4, h5, h6 {
+    color: var(--heading-color);
 }
 
 section h2, section div {
