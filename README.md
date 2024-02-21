@@ -21,5 +21,3 @@ Thanks to everyone who has contributed! 🙏
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
-this is a forked test repo 
