@@ -8,7 +8,6 @@ function openPlayer(playerName) {
   document.getElementById(playerName).style.display = "block";
 
   const buttons = document.getElementsByTagName('button')
-  
   Array.from(buttons).forEach(element => {
     if (element.id === `${playerName}Btn`) {
       element.style.backgroundColor = '#e54b4b'
